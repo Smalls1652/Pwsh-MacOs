@@ -15,7 +15,7 @@ RootModule = 'Pwsh-MacOs.psm1'
 ModuleVersion = '1906.23.1'
 
 # Supported PSEditions
-# CompatiblePSEditions = @()
+CompatiblePSEditions = @("Core")
 
 # ID used to uniquely identify this module
 GUID = '333df00a-4dc3-45d2-b817-ee0e5f4e453e'
@@ -72,13 +72,13 @@ Description = 'A module that adds unique macOS commands to improve efficiency of
 FunctionsToExport = 'Clear-Trash', 'Get-OldDownloads'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
-CmdletsToExport = '*'
+CmdletsToExport = @()
 
 # Variables to export from this module
-VariablesToExport = '*'
+VariablesToExport = @()
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = '*'
+AliasesToExport = @()
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
@@ -95,13 +95,13 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        # Tags = @()
+        Tags = @('macos','pwsh','powershell-core')
 
         # A URL to the license for this module.
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/Smalls1652/Pwsh-MacOs'
 
         # A URL to an icon representing this module.
         # IconUri = ''
