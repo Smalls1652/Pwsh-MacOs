@@ -33,7 +33,7 @@ Copyright = '2019'
 Description = 'A module that adds unique macOS commands to improve efficiency of managing macOS.'
 
 # Minimum version of the PowerShell engine required by this module
-# PowerShellVersion = ''
+PowerShellVersion = '6.0'
 
 # Name of the PowerShell host required by this module
 # PowerShellHostName = ''
